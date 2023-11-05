@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #252323;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+
+  transition: all 0.2s ease;
+
+  justify-content: space-between;
+}
+.item:hover {
+  background-color: #1d1c1c;
+}
+.item input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item button {
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  padding: 2px 20px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+.item button:hover {
+  background-color: #141414;
+}
+.item:hover {
+  background-color: #1d1c1c;
+}

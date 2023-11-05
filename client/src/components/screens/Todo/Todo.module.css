@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #252323;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+
+  transition: all 0.2s ease;
+}
+.item:hover {
+  background-color: #1d1c1c;
+}
+
+.item__body {
+  flex: 1 1 auto;
+}
